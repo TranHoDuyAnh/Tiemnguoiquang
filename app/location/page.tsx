@@ -373,7 +373,7 @@ export default async function LocationPage() {
 
               {mapsUrl && business?.latitude && business?.longitude && (
                 <div className="text-xs text-muted-foreground/70 text-center">
-                  Nếu vị trí chưa chính xác, hãy bấm nút "Mở Google Maps &amp; chỉ đường" ở trên và kiểm tra lại kinh độ/vĩ độ trong quản trị &gt; Cơ sở.
+                  Nếu vị trí chưa chính xác, hãy bấm nút &ldquo;Mở Google Maps &amp; chỉ đường&rdquo; ở trên và kiểm tra lại kinh độ/vĩ độ trong quản trị &gt; Cơ sở.
                 </div>
               )}
             </div>
